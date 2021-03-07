@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Practice</title>
+        <link rel="stylesheet" href="./css/style.css">
+    </head>
+    <body>
+        <h1 class="head">This is Practice Page</h1>
+        <a href="index.html">Home</a>
+
+        <!-- This is Blockquote -->
+            <p>This is the article from wikipedia</p>
+            <blockquote cite="https://en.wikipedia.org/wiki/Black_hole">
+                A black hole is a region of spacetime where gravity is so strong that nothing—no particles or even electromagnetic radiation such as light—can escape from it.[1] The theory of general relativity predicts that a sufficiently compact mass can deform spacetime to form a black hole.
+            </blockquote><hr>
+
+        <!-- Button -->
+        <h1>Color Box</h1>
+            <div id="colorBox"></div>
+            <br>
+            <button id="redBtn" onclick="redMe()">Red</button>
+            <button id="greenBtn" onclick="greenMe()">Green</button><hr>
+
+        <!-- Caption -->
+        <table>
+            <caption>Monthly Cost</caption>
+            <tr>
+              <th>Item</th>
+              <th>Price</th>
+            </tr>
+            <tr>
+              <td>Laptop</td>
+              <td>$100</td>
+            </tr>
+          </table><hr>
+
+          <!-- Cite -->
+          <p><cite>The Scream</cite> by Edward Munch. Painted in 1893.</p><hr>
+
+          <!-- Code -->
+          <p>The HTML <code>button</code> tag defines a clickable button.</p><hr>
+
+          <!-- This is COL and COL GROUP -->
+
+          <h1>The col and col group element</h1>
+
+                <table>
+                <colgroup>
+                    <col span="2" style="background-color:red">
+                    <col style="background-color:yellow">
+                </colgroup>
+                <tr>
+                    <th>ISBN</th>
+                    <th>Title</th>
+                    <th>Price</th>
+                </tr>
+                <tr>
+                    <td>3476896</td>
+                    <td>My first HTML</td>
+                    <td>$53</td>
+                </tr>
+                <tr>
+                    <td>5869207</td>
+                    <td>My first CSS</td>
+                    <td>$49</td>
+                </tr>
+                </table><hr>
+
+            <!-- This is Data -->
+            <h1>This is Data</h1>
+            <ul>
+                <li><data value="21053">Cherry Tomato</data></li>
+                <li><data value="21054">Beef Tomato</data></li>
+                <li><data value="21055">Snack Tomato</data></li>
+              </ul><hr>
+
+            <!-- Del -->
+            <h1>The del element</h1>
+            <p>My favorite color is <del>blue</del> <ins>red</ins>!</p><hr>
+
+            <!-- Details -->
+            <h1>The Details element</h1>
+            <details>
+                <summary>This is summary</summary>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In minus quasi quod ducimus earum iste tempora sunt consequuntur optio suscipit perferendis provident modi fugiat tenetur culpa ratione, corporis odio veritatis maxime vel? Iure, blanditiis rerum cupiditate consectetur dicta id! Maxime reiciendis odio dolores aliquid quod veritatis dolore similique assumenda veniam culpa, ad ex minus neque repellat ut. Suscipit, obcaecati. Quas magnam dicta quasi vero blanditiis nam itaque quae ab neque, cumque aliquid nemo fuga ea, inventore fugiat accusantium, eius incidunt ipsum ut. Nesciunt possimus est odit minus! Eaque at perferendis excepturi doloremque quod voluptates, voluptas facere mollitia, voluptatem non quae?</p>
+            </details><hr>
+
+            <!-- Dfn -->
+            <h1>The dfn element</h1>
+            <p><dfn>HTML</dfn> is the standard markup language for creating web pages.</p><hr>
+
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <script>
+                function redMe(){
+                    document.getElementById("redBtn").addEventListener('click', ()=>{
+                        document.getElementById("colorBox").style.backgroundColor='red';
+                    })
+                }
+                function greenMe(){
+                    document.getElementById("greenBtn").addEventListener('click', ()=>{
+                        document.getElementById("colorBox").style.backgroundColor='green';
+                    })
+                }
+            </script>
+
+    </body>
+</html>
